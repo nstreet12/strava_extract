@@ -164,6 +164,7 @@
     <orderEntry type="library" name="sbt: org.json4s:json4s-jackson_2.12:3.7.0-M11:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.12:3.7.0-M11:jar" level="project" />
     <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.8.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.mariadb.jdbc:mariadb-java-client:2.7.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.objenesis:objenesis:2.5.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:RoaringBitmap:0.9.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:shims:0.9.25:jar" level="project" />
