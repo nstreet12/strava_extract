@@ -5,9 +5,8 @@ import org.apache.spark.sql.{SparkSession, Row, SaveMode}
 import java.sql.DriverManager
 
 // number of activity
-val num_str : String = "100"
-val page_str : String = "1"
-val num : Int = num_str.toInt
+val num : Int = 20
+val start_date : String = "start_date"
 
 def runPost(http: String): String = {
   val responseData =
@@ -24,7 +23,7 @@ def runPost(http: String): String = {
 }
 
 def getActivityID(accessID: String): String = {
-  val response: HttpResponse[String] = Http(s"""https://www.strava.com/api/v3/athlete/activities?page=$page_str&per_page=$num_str&access_token=$accessID""").asString
+  val response: HttpResponse[String] = Http(s"""https://www.strava.com/api/v3/athlete/activities?page=1&per_page=20&access_token=$accessID&order_by=$start_date""").asString
   response.body
 }
 
