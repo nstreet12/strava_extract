@@ -17,4 +17,5 @@ libraryDependencies ++= Seq("org.scalaj" % "scalaj-http_2.12" % "2.4.2",
                             "org.scalikejdbc" %% "scalikejdbc" % "2.5.2",
                             "com.github.kiambogo" %% "scrava" % "1.3.0",
                             "net.liftweb" %% "lift-json" % "3.0.1",
-                            "org.mariadb.jdbc" % "mariadb-java-client" % "2.7.4")
+                            "org.mariadb.jdbc" % "mariadb-java-client" % "2.7.4",
+                            "com.typesafe" % "config" % "1.4.1")
