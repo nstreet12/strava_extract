@@ -5,10 +5,8 @@ import java.sql.DriverManager
 
 object StravaExtract {
   // number of activity
-  val num: Int = 2
+  val num: Int = 5
   val start_date: String = "start_date"
-//  val stravaGET: String = Path.stravaGetURL
-//  val stravaPOST: String = Path.stravaPostURL
 
   def runPost(http: String): String = {
     // Logging: Sending POST request to Strava API
