@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: org.mariadb.jdbc:mariadb-java-client:2.7.4:jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/2.7.4/mariadb-java-client-2.7.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
