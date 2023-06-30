@@ -5,7 +5,7 @@ import java.sql.DriverManager
 
 object StravaExtract {
   // number of activity
-  val num: Int = 5
+  val num: Int = 10
   val start_date: String = "start_date"
 
   def runPost(http: String): String = {
